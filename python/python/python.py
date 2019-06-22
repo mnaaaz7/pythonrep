@@ -3,6 +3,13 @@ from difflib import get_close_matches
 
 data = json.load(open("data.json", "r"))
 
+ def smth(aa):
+  for  i in range(len(10)):
+    a+=1
+  return a
+
+print(smth(10))
+
 def dict1(w):
     w = w.lower()
     if w in data:
