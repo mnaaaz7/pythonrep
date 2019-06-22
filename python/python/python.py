@@ -1,7 +1,9 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("data.json", "r"))
+data = json.load(open("data.json", "r"))  
+
+#This won`t run
 
  def smth(aa):
   for  i in range(len(10)):
